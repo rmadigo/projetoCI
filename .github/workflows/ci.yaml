@@ -3,9 +3,12 @@ on:
   pull_request:
     branches:
       - develop
+
+
       
 jobs:
   check-application:
+    name: Verificando_Aplicacao
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
